@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+    color: green;
+    display: flex;
+    align-items: center;
+    
+}
+section {
+    background-image: url(https://acegif.com/wp-content/gifs/raining-money-8.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.console-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controller-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    padding: 0 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.profilee {
+    padding: 0 15px;
+    height: 50px;
+    width: 50px;
+    transform: scaleX(-1);
+}
+
+
+.pic {
+    border-radius: 10px;
+    height: 250px;
+    width: 390px;
+}
+
+.btn {
+    border-radius: 8px;
+    color: gold;
+    background-color: black;
+}
